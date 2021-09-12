@@ -17177,18 +17177,18 @@ if not AntiCheat.PrintingOff then
 	local StarterGui = game:GetService("StarterGui")
 	StarterGui:SetCore("ChatMakeSystemMessage", {
 		Text = "Hello "..cmdlp.Name..".";
-		Color = Color3.fromRGB(50, 50, 50);
+		Color = Color3.fromRGB(255,204,255);
 		Font = Enum.Font.SourceSansBold;TextSize = 25
 	})
 	StarterGui:SetCore("ChatMakeSystemMessage", {
 		Text = "Your personalized admin was loaded.";
-		Color = Color3.fromRGB(100, 100, 100);
+		Color = Color3.fromRGB(255,204,255);
 		Font = Enum.Font.SourceSansBold;
 		TextSize = 20
 	})
 	StarterGui:SetCore("ChatMakeSystemMessage", {
-		Text = "Press Q to hide the GUI.";
-		Color = Color3.fromRGB(120, 120, 120);
+		Text = "Press Q to hide the UI.";
+		Color = Color3.fromRGB(255,204,255);
 		Font = Enum.Font.SourceSansBold;
 		TextSize = 20
 	})
